@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+table,th,td{
+    width: 800px;
+    margin: auto;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid  black;
+    border-collapse: collapse;
+    background-color: rgb(232, 237, 119);
+
+}
+body{
+    background-color: rgb(13, 241, 169);
+}
+.down{
+    display: inline-block;
+    position: relative;
+    bottom: -54px;
+    left: 646px;
+    /*border: 2px solid yellow ;*/
+    color:white;
+}
+#learn{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(6, 183, 62);
+    width: 180px;
+    height: 60px;
+    border-radius: 40px;
+    color: white;
+}
+#learn:hover{
+    background-color: rgb(9, 251, 97);
+    color: black;
+}
